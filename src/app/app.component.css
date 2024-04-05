@@ -1,0 +1,11 @@
+.wish-list {
+    list-style: none;
+}
+.symbol{
+    background: #000;
+    border-radius: 50%;
+}
+.symbol img {
+    height: 500px;;
+    width: fit-content;
+}

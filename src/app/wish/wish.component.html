@@ -1,0 +1,28 @@
+<div class="test">
+  <div class="container">
+      
+    <div class="row">
+      <h1>Rivens Wall Of Wishes Guide</h1>
+      <p class="text">In Destiny 2, the Wall of Wishes is an intriguing and mysterious element seen in the Last Wish raid. Players can enter particular combinations of symbols into this magical wall to initiate different effects or adjustments inside the raid encounter. As players figure out the meanings and consequences of the combinations, the wall offers an engaging puzzle element to the raid that promotes experimentation and discovery. Through sharing found combinations and working together to unearth new mysteries, participants utilize the platform to foster creativity and community engagement. The Wall of Wishes encourages players to explore the Destiny 2 realm and unearth hidden riches by adding complexity to the raid experience and fostering a feeling of mystery and wonder.</p>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row mt-3">
+    <wish-filter (change)="wall()" [(listFilter)]="wishValue">
+    </wish-filter>
+  </div>
+  <div class="row mt-3 borad">
+    <wish-symbol [wishes]="items"></wish-symbol>
+  </div>
+</div>
+<div class="watermark">
+  <div class="container" >
+    <div class="row">
+      <div class="col-sm-4" *ngFor="let water of watermark">
+        <a href="https://www.bungie.net"><img src="assets/Images/{{water.waterImg}}" alt=""></a>
+      </div>
+    </div>
+  </div>
+</div>
+

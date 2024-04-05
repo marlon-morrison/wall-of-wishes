@@ -1,0 +1,14 @@
+.wishEffect {
+    display: flex;
+}
+.locate {
+    font-size: 19px;
+    margin-left: 4%;
+    color: #fff;
+    background-color: #2F151B;
+    padding: 10px 20px;
+    border-radius: 10%;
+}
+/* .form-select {
+
+} */

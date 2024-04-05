@@ -1,0 +1,13 @@
+<div class="wishEffect">
+  <div class="col-sm-2">
+    <select class="form-select" (change)="updateFilter()" #wishes>
+      <option *ngFor="let list of wishlist" [value]="list.wishValue">{{list.wishName}}</option>
+    </select>
+  </div>
+  <div class="col-sm-5">
+    <p class="locate"><b>Plate Location:</b>{{wishlist[i].location}}</p>
+  </div>
+  <div class="col-sm-5">
+    <p class="locate"><b>Effect:</b>{{wishlist[i].effect}}</p>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+[
+    {"wishImg":"fish-1.png", "wishNum": 0},
+    {"wishImg":"black-space.png", "wishNum": 1},
+    {"wishImg":"draco-4.png", "wishNum": 2},
+    {"wishImg":"black-space.png", "wishNum": 3},
+    {"wishImg":"fish-3.png", "wishNum": 4},
+    {"wishImg":"fish-1.png", "wishNum": 5},
+    {"wishImg":"black-space.png", "wishNum": 6},
+    {"wishImg":"draco-4.png", "wishNum": 7},
+    {"wishImg":"black-space.png", "wishNum": 8},
+    {"wishImg":"fish-3.png", "wishNum": 9},
+    {"wishImg":"fish-4.png", "wishNum": 10},
+    {"wishImg":"black-space.png", "wishNum": 11},
+    {"wishImg":"draco-2.png", "wishNum": 12},
+    {"wishImg":"black-space.png", "wishNum": 13},
+    {"wishImg":"fish-3.png", "wishNum": 14},
+    {"wishImg":"fish-4.png", "wishNum": 15},
+    {"wishImg":"black-space.png", "wishNum": 16},
+    {"wishImg":"draco-2.png", "wishNum": 17},
+    {"wishImg":"black-space.png", "wishNum": 18},
+    {"wishImg":"snake-2.png", "wishNum": 19}
+]

@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    color: #fff;
+    text-decoration: underline ;
+    font-size: 90px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.borad {
+    background-color: #4C2E3C;
+    border-radius: 10%;
+    padding-left: 5%;
+}
+.text {
+    font-size: 16px;
+    color: #fff;
+    border-radius: 1%;
+    padding: 10px;
+}
+.test {
+    background-color: #16070A;
+}
+.watermark {
+    padding: 2%;
+    margin-top: 5%;
+    background-color: #6d2f2e;
+    height: auto;
+}
+.watermark img {
+    float: inline-end;
+    height: 94px;
+    width: 78%;
+}

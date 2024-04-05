@@ -1,0 +1,22 @@
+[
+    {"wishImg":"bird-1.png", "wishNum": 0},
+    {"wishImg":"bird-1.png", "wishNum": 1},
+    {"wishImg":"black-space.png", "wishNum": 2},
+    {"wishImg":"bird-4.webp", "wishNum": 3},
+    {"wishImg":"bird-4.webp", "wishNum": 4},
+    {"wishImg":"bird-1.png", "wishNum": 5},
+    {"wishImg":"black-space.png", "wishNum": 6},
+    {"wishImg":"fish-4.png", "wishNum": 7},
+    {"wishImg":"snake-2.png", "wishNum": 8},
+    {"wishImg":"bird-4.webp", "wishNum": 9},
+    {"wishImg":"draco-1.png", "wishNum": 10},
+    {"wishImg":"black-space.png", "wishNum": 11},
+    {"wishImg":"fish-4.png", "wishNum": 12},
+    {"wishImg":"black-space.png", "wishNum": 13},
+    {"wishImg":"snake-3.png", "wishNum": 14},
+    {"wishImg":"draco-1.png", "wishNum": 15},
+    {"wishImg":"draco-1.png", "wishNum": 16},
+    {"wishImg":"black-space.png", "wishNum": 17},
+    {"wishImg":"snake-3.png", "wishNum": 18},
+    {"wishImg":"snake-3.png", "wishNum": 19}
+]

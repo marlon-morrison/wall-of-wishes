@@ -4,7 +4,9 @@ import { AppComponent } from './app.component';
 describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [AppComponent],
+      declarations: [
+        AppComponent
+      ],
     }).compileComponents();
   });
 
@@ -14,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'wall-of-wishes-guide' title`, () => {
+  it(`should have as title 'wishlist'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('wall-of-wishes-guide');
+    expect(app.title).toEqual('wishlist');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, wall-of-wishes-guide');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('wishlist app is running!');
   });
 });

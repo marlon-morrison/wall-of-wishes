@@ -1,0 +1,24 @@
+.symbol{
+    background: #000;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5%;
+    position: relative;
+}
+.symbol img {
+    float: inline-end;
+    height: 94px;;
+    width: fit-content;
+}
+.wish-list {
+    display: inline-table;
+    margin: 1%;
+    background-color: #4C2E3C;
+    border-radius: 20%;
+
+}
+.btn-change {
+    padding: 20px;
+    position: absolute;
+    float: left;
+}
